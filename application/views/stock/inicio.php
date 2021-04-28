@@ -23,7 +23,7 @@ defined( 'BASEPATH' ) OR exit( 'No direct script access allowed' );
                 </thead>
                 <tbody>
                 <?php foreach($produtos as $produto): ?>
-                    <tr>
+                    <tr style="font-size: 11pt;">
                         <td class="text-left"><a class="mr-3" href="<?=site_url('gestao/editar/').$produto['id_produto']?>"><i class="fa fa-pencil"></i></a><?=$produto['designacao']?></td>
                         <td class="text-center"><?=$produto['quantidade']?></td>
                         <td class="text-right">
